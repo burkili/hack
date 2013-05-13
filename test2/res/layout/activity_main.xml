@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonMD"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:text="@string/download" />
+
+    <Button
+        android:id="@+id/buttonMU"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMD"
+        android:layout_below="@+id/buttonMD"
+        android:layout_marginTop="20dp"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:text="@string/upload" />
+
+    <Button
+        android:id="@+id/buttonMP"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMU"
+        android:layout_below="@+id/buttonMU"
+        android:layout_marginTop="20dp"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:text="@string/page" />
+
+    <Button
+        android:id="@+id/buttonML"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMP"
+        android:layout_below="@+id/buttonMP"
+        android:layout_marginTop="20dp"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:text="@string/list" />
+
+</RelativeLayout>
